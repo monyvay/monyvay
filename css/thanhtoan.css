@@ -55,6 +55,13 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+     /* CSS để xóa border của button */
+ button {
+     border: none; /* Xóa viền */
+     outline: none; /* Xóa đường viền khi button được focus (nếu cần) */
+ }
+
 .pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option {
     display: flex;
     justify-content: space-between;
